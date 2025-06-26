@@ -1,0 +1,89 @@
+/* General body styles */
+body {
+    background-color: #f77a7a;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Center the content container */
+.item {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 310px; /* Fixed width for consistency */
+    text-align: center;
+    height: 150px;
+}
+
+.item h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Style for the button container */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Ensures buttons are spaced evenly */
+    gap: 10px; /* Adds space between buttons */
+}
+
+/* Style for the buttons */
+.button {
+    padding: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    width: 100px;  /* Same width for both buttons */
+    text-align: center;
+    transition: all 0.3s ease;
+    display: inline-block; /* Keep buttons inline within the flex container */
+}
+
+/* 'NO' button */
+#no {
+    background-color: #e93e3e; /* Red color */
+}
+
+/* 'YES' button */
+#yes {
+    background-color: #18b158; /* Green color */
+}
+
+/* Hover effects for the buttons */
+.button:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+/* Add focus effect for accessibility */
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 255, 0.5);
+}
+
+#hello {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    top: 120px;
+    right: 64.3%;
+}
